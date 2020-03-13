@@ -8,8 +8,26 @@ function App() {
   return (
     <div className="App">
       <Dashboard/>
+      <div>
+        <section>
+          <h3>Soap</h3>
+          <h3>$4</h3>
+          <h3>img</h3>
+        </section>
+        <section>
+          <h3>Shampoo</h3>
+          <h3>$8</h3>
+          <h3>img</h3>
+        </section>
+        <section>
+          <h3>Washcloths</h3>
+          <h3>$6</h3>
+          <h3>img</h3>
+        </section>
+      </div>
       <Form/>
       <Header/>
+      
 
     </div>
   );
