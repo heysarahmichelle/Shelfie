@@ -1,0 +1,1 @@
+INSERT INTO product (product_name, product_image, product_price) VALUES ($1, $2, $3) RETURNING *;

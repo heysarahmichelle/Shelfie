@@ -41,11 +41,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* HEADER COMPONENT CSS */
+.header-component {
+  background-color: #AB2918;
+  height: 75px;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  flex-direction: space-between;
+}
+.logo-component {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 6.5mm;
+  margin-left: 1.7cm;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.shelfie-logo {
+  margin-right: 15px;
+}
+
 
 /* FORM COMPONENT CSS */
 .form-component {
   display: flex;
   justify-content: flex-end;
+  margin-right: 200px;
 }
 .outer-green-box {
   display: flex;

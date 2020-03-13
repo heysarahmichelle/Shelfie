@@ -17,7 +17,7 @@ massive({
     console.log('DB Connected')
 })
 
-app.get('/api/products', ctrl.getAllProducts)
+app.get('/api/inventorylist', ctrl.getInventory)
 app.get('/api/product/:id', ctrl.getOneProduct)
 app.post('/api/product', ctrl.addProduct)
 app.put('/api/product/:id', ctrl.editProduct)
