@@ -17,5 +17,5 @@ massive({
     console.log('DB Connected')
 })
 
-const PORT = 5500;
+const PORT = 5533;
 app.listen(SERVER_PORT, () => console.log(`SERVER RUNNING ON PORT ${SERVER_PORT}`));
