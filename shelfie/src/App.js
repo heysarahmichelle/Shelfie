@@ -9,7 +9,7 @@ class App extends Component {
   constructor(){
     super();
     this.state={
-      inventoryList: ''
+      inventoryList: []
     }
   }
   componentDidMount = () => {
@@ -28,9 +28,11 @@ class App extends Component {
   // })
     return (
       <div className="App">
-        <Header/>
-        <Dashboard/>
-        <Form/>
+        <Header />
+        <div className="outer-component">
+          <Dashboard />
+          <Form />
+        </div>
 
       </div>
     );

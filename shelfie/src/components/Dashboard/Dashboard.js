@@ -11,8 +11,9 @@ class Dashboard extends Component {
     render(){
         return(
             <div>
-                Dashboard Component
-                <Product/>
+                <Product
+                deleteProduct = {this.props.deleteProduct}
+                />
             </div>
         )
     }

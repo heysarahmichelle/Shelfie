@@ -65,11 +65,97 @@ table {
 }
 
 
+/* OUTER COMPONENT CSS */
+.outer-component {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+/* PRODUCT COMPONENT CSS */
+.product-component {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.red-box {
+  width: 550px;
+  height: 200px;
+  background-color: #D34735;
+  margin-bottom: 30px;
+  border-style: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.product-image {
+  background-color: white;
+  height: 170px;
+  width: 270px;
+  border-style: none;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+.spots {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.item-spot {
+ margin-left: 8px;
+ margin-top: 5px;
+ font-size: 7mm;
+}
+.price-spot {
+  margin-left: 8px;
+  margin-top: 5px;
+  font-size: 5mm;
+}
+.product-component-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.product-delete {
+  height: 40px;
+  width: 50px;
+  background-color: #3AD886;
+  margin-right: 150px;
+  margin-left: 15px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 5px;
+  font-size: small;
+}
+.product-edit {
+  height: 40px;
+  width: 50px;
+  background-color: #3AD886;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 80px;
+  font-size: small;
+}
+
+
+
 /* FORM COMPONENT CSS */
 .form-component {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 200px;
+  justify-content: center;
+
 }
 .outer-green-box {
   display: flex;
